@@ -12,7 +12,7 @@ document.getElementById("save").innerHTML = "Saved";
 setTimeout(function()
 {
     document.getElementById("save").innerHTML = "Changes Saved";
-},1000);
+},2000);
 
 }
 document.getElementById("save").onclick = save;
@@ -31,7 +31,7 @@ function add() {
     document.getElementById("add").innerHTML = "Added";
     setTimeout(function() {
         document.getElementById("add").innerHTML = "Add";
-    }, 1000);
+    }, 2000);
 }
 document.getElementById("add").onclick = add;
 
@@ -46,7 +46,7 @@ function deleteButtonHandler()
     document.getElementById("delete").innerHTML = "Deleted";
     setTimeout(function() {
         document.getElementById("delete").innerHTML = "Delete";
-    }, 1000);
+    }, 2000);
 }
 document.getElementById("delete").onclick = deleteButtonHandler;
 
