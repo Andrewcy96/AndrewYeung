@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <title>Admin</title>
+    <script src="js/AdminScripts.js"></script>
+</head>
+<body>
+    <h1 id="num">Question 1</h1>
+
+    <script>
+        updateQuestionNum()
+    </script>
+
+    <textarea cols="40" rows="5" id="question" placeholder="Enter question here" value="question"></textarea><br />
+
+    <input type="radio" id="radio1" name="question 1" id="A" />
+    <input id="A" placeholder="A" /><br/>
+
+    <input type="radio" id="radio2" name="question 1" id="B" />
+    <input id="B" placeholder="B" /><br/>
+
+    <input type="radio" id="radio3" name="question 1" id="C" />
+    <input id="C" placeholder="C" /><br/>
+
+    <input type="radio" id="radio4" name="question 1" id="D" />
+    <input id="D" placeholder="D" /><br/>
+
+
+    <div>
+        <br>
+        <button id="save">Save</button>
+        <button id="add">Add</button>
+        <button id="delete">Delete</button>
+        <button onclick="window.location.href='index.html';">Back</button>
+    </div>
+    <script src="js/AdminHandlers.js"></script>
+</body>
+</html>
