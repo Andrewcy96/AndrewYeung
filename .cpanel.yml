@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/andrewc1/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp -R COMP351 $DEPLOYPATH
